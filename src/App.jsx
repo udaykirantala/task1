@@ -6,6 +6,7 @@ import Damcomponents from './assets/Componets/Damcomponent'
 import MyAccount from './assets/Componets/MyAccount'
 import Login from './assets/Componets/Login'
 import { Route, Routes } from 'react-router'
+import Mainpage from './assets/Componets/Mainpage'
 
 
 function App() {
@@ -14,8 +15,8 @@ function App() {
     
       <Header /><br/>
       <Routes>
-      <Route path='/' element={<Damcomponents><Products /></Damcomponents>} />
-      <Route path='/index' element={<Damcomponents><Products /></Damcomponents>} />
+      <Route path='/' element={<Mainpage/>} />
+      <Route path='/index' element={<Mainpage/>} />
       <Route path='/Shope' element={<Damcomponents><Products /></Damcomponents>} />
         <Route path='/MyAccount' element={<MyAccount />} />
         <Route path='/Login' element={<Login />} />

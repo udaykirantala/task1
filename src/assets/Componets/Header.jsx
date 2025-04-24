@@ -7,11 +7,11 @@ function Header(){
         <nav className='headerSection'>
             <h2>Header Logo</h2>
             <ul>
-                <li><Link to='/index'>Home</Link></li>
-                <li><Link to='/Shope'>Shop</Link></li>
-                <li><Link to='/MyAccount'>My Account</Link></li>
-                <li><Link to='/Compare'>Compare</Link></li>
-                <li><Link to='/Login'>Login</Link></li>
+                <li><Link to='/index' className='headerLinks'>Home</Link></li>
+                <li><Link to='/Shope' className='headerLinks'>Shop</Link></li>
+                <li><Link to='/MyAccount' className='headerLinks'>My Account</Link></li>
+                <li><Link to='/Compare' className='headerLinks'>Compare</Link></li>
+                <li><Link to='/Login' className='headerLinks'>Login</Link></li>
             </ul>
         </nav>
         </>

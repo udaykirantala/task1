@@ -3,7 +3,7 @@
     justify-content:space-between;
     align-items: center;
     background-color: aquamarine;
-    color: white;
+    padding: 0px 20px;
 }
 ul{
     display: flex;
@@ -11,4 +11,9 @@ ul{
     align-items: center;
     list-style: none;
     gap: 30px;
+}
+.headerLinks{
+    list-style: none;
+    text-decoration: none;
+    color: black;
 }
