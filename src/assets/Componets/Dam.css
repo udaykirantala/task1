@@ -1,0 +1,19 @@
+.productsSection{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.productsCarts{
+    overflow: hidden;
+    width: 23%;
+    border: 1px solid black;
+    padding: 5px;
+    height: 550px;
+}
+.productsCarts img{
+    object-fit: cover;
+    width: 98%;
+    height: 400px;
+}

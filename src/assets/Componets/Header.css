@@ -1,0 +1,14 @@
+.headerSection{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: aquamarine;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}

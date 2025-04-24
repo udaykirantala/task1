@@ -1,0 +1,44 @@
+.total-account-details-container{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 0% 4% 0% 4% ;
+}
+.total-account-details-container table{
+    border-collapse: collapse;
+}
+.total-account-details-table td{
+    padding: 10%;
+}
+.total-account-details-table table{
+    width: 350px;
+    margin-right: 50px;
+}
+.total-account-user-details-table td{
+    padding: 1.5%;
+}
+.total-account-user-details-table{
+    margin-bottom: 290px;
+}
+.total-account-details-table i{
+    padding-right: 15px;
+}
+.total-account-details-colour-text{
+    background-color:   rgb(17, 92, 23);
+    color: white;
+}
+.total-user-details-colour-text{
+    background-color:  rgba(128, 128, 128, 0.225);
+}
+.total-user-details-colour-text td{
+    padding: 33.5px 0px 33.5px 15px;
+}
+#total-account-details-orders{
+    padding-right: 70px;
+}
+#total-account-details-upadte-profile{
+    padding-left: 55px;
+}
+#total-account-details-logout{
+    padding-right: 65   px;
+}
